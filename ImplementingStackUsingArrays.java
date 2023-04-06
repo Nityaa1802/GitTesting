@@ -80,6 +80,7 @@ public class StackUsingArrayImplementation {
 
     public static void main(String[] args) {
         StackUsingArrayImplementation obj = new StackUsingArrayImplementation(5);
+        System.out.println("Hiello");
         System.out.println(obj.size());
         System.out.println(obj.isEmpty());
         obj.push(10);
